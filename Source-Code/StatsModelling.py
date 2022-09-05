@@ -11,6 +11,15 @@ name: array --> coloumn names
 nrows : number of files to read
 """
 
+#Use library to:
+    """
+    - get 5 rows of data
+    - using coloum names via a list
+    - file name
+    - delimiters (regex)
+    - headers
+    """
+
 #Getting ages from the adult.data file
 def getAgeList(numRows = None):
     
