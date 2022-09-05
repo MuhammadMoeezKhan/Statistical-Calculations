@@ -130,11 +130,12 @@ main()
 
 
 """
-Python 2x and 3x Differences:
-    - print statement
-    - 1 / 2 gives a float  and  1 // 2 gives an int
-    - != not equals (as in Java)
-    - input to read Strings
-    - All classes must explicity extend the Ojbect class
+
+Pandas has been one of the most commonly used tools for Data Science and Machine learning, which is used for data cleaning and analysis. 
+Here, Pandas is the best tool for handling this real-world messy data. 
+
+Pandas is built on top of two core Python libraries—matplotlib for data visualization and NumPy for mathematical operations. 
+Pandas acts as a wrapper over these libraries, allowing you to access many of matplotlib's and NumPy's methods with less code.
+
 """
 
