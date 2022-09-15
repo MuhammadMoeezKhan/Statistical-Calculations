@@ -22,7 +22,21 @@ nrows : number of files to read
 
 #Getting ages from the adult.data file
 def getAgeList(numRows = None):
-    colNames = ["age", "workclass", "fnlwgt", "education", "education-num", "marital-status", "occupation", "relationship", "race", "sex", "capital-gain", "capital-loss", "hours-per-week", "native-country", "income"]
+    colNames = ["age", 
+                "workclass", 
+                "fnlwgt", 
+                "education", 
+                "education-num", 
+                "marital-status", 
+                "occupation", 
+                "relationship", 
+                "race", 
+                "sex", 
+                "capital-gain", 
+                "capital-loss", 
+                "hours-per-week", 
+                "native-country", 
+                "income"]
     origData = pd.read_csv("data/adult.data", delimiter = ", ", header=None, names=colNames, engine='python', nrows=5)
     return origData.loc[:, 'age'].tolist()
 
